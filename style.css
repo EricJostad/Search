@@ -1,3 +1,13 @@
+h1 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.main_search {
+    text-align: center;
+    margin-top: 50px;
+}
+
 .google-logo {
     font-size: 80px;
     font-family: Arial, sans-serif;
