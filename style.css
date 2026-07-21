@@ -60,6 +60,11 @@ input[type="submit"] {
     text-decoration: underline;
 }
 
+.form-group {
+    flex-direction: column;
+    margin-top: 20px;
+}
+
 .google-logo {
     font-size: 80px;
     font-family: Arial, sans-serif;
