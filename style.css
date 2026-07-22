@@ -89,6 +89,11 @@ input[type="submit"] {
     margin-left: 10px;
 }
 
+.advanced-search-page h2 {
+    text-align: left;
+    margin-left: 10px;
+}
+
 .g {
     color: #4285F4;
 }
