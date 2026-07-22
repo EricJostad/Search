@@ -31,7 +31,6 @@ h3 {
     margin-top: 20px;
     display: flex;
     gap: 10px;
-    justify-content: center;
 }
 
 input[type="submit"] {
@@ -83,6 +82,11 @@ input[type="submit"] {
     font-size: 80px;
     font-family: Arial, sans-serif;
     font-weight: 500;
+}
+
+.advanced-search-page .google-logo {
+    text-align: left;
+    margin-left: 10px;
 }
 
 .g {

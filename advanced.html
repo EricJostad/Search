@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body class="advanced-search-page">
     <h1 class="google-logo">
         <span class="g">G</span>
         <span class="o1">o</span>
@@ -15,27 +15,29 @@
         <span class="l">l</span>
         <span class="e">e</span>
     </h1>
-    <form action="https://www.google.com/search">
-        <div class="form-group">
-            <label> All of these words:</label>
-            <input type="text" name="q">
-        </div>
-        <div class="form-group">
-            <label> This exact word or phrase:</label>
-            <input type="text" name="as_epq">
-        </div>
-        <div class="form-group">
-            <label> Any of these words:</label>
-            <input type="text" name="as_oq">
-        </div>
-        <div class="form-group">
-            <label> None of these words:</label>
-            <input type="text" name="as_eq">
-        </div>
-        <div class="search-buttons">
-            <input type="submit" value="Advanced Search">
-        </div>
-    </form>
+    <div class="grid-container">
+        <form action="https://www.google.com/search">
+            <div class="form-group">
+                <label> All of these words:</label>
+                <input type="text" name="q">
+            </div>
+            <div class="form-group">
+                <label> This exact word or phrase:</label>
+                <input type="text" name="as_epq">
+            </div>
+            <div class="form-group">
+                <label> Any of these words:</label>
+                <input type="text" name="as_oq">
+            </div>
+            <div class="form-group">
+                <label> None of these words:</label>
+                <input type="text" name="as_eq">
+            </div>
+            <div class="search-buttons">
+                <input type="submit" value="Advanced Search">
+            </div>
+        </form>
+    </div>
     <div class="nav-links">
         <a href="index.html">Back to Search</a>
     </div>
