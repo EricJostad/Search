@@ -177,7 +177,7 @@ body {
 @media (prefers-color-scheme: light) {
     body {
         background-color: #ffffff;
-        color: #000000;
+        color: #4285F4;
     }
 
     .main-search input[type="text"] {
