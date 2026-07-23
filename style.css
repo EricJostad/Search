@@ -8,13 +8,7 @@ h1 {
 
 h2 {
     text-align: center;
-    margin-top: 20px;
     font-family: Arial, sans-serif;
-}
-
-h3 {
-    text-align: left;
-    margin-top: 10px;
 }
 
 /* =========================================================
@@ -178,6 +172,33 @@ body {
     color: #000000;
 }
 
+/* Light mode */
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: #ffffff;
+        color: #000000;
+    }
+
+    input[type="text"] {
+        background-color: #ffffff;
+        color: #000000;
+        border: 1px solid #ccc;
+    }
+
+    input[type="submit"] {
+        background-color: #4285F4;
+        color: #ffffff;
+    }
+
+    .nav-links a {
+        color: #4285F4;
+    }
+
+    .footer a {
+        color: #4285F4;
+    }
+}
+
 /* Dark mode */
 @media (prefers-color-scheme: dark) {
     body {
@@ -226,32 +247,5 @@ body {
 
     .e {
         color: #ffffff;
-    }
-}
-
-/* Light mode */
-@media (prefers-color-scheme: light) {
-    body {
-        background-color: #ffffff;
-        color: #000000;
-    }
-
-    input[type="text"] {
-        background-color: #ffffff;
-        color: #000000;
-        border: 1px solid #ccc;
-    }
-
-    input[type="submit"] {
-        background-color: #4285F4;
-        color: #ffffff;
-    }
-
-    .nav-links a {
-        color: #4285F4;
-    }
-
-    .footer a {
-        color: #4285F4;
     }
 }
