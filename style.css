@@ -1,5 +1,5 @@
 /* =========================================================
-   Layout: Main Search Section
+   Main Search Section
    ========================================================= */
 .main-search {
     display: flex;
@@ -111,6 +111,7 @@ input[type="submit"] {
     font-weight: 500;
     letter-spacing: -10px;
     margin-top: 300px;
+    margin-bottom: 30px;
 }
 
 /* Image page heading alignment */
