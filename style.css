@@ -180,6 +180,10 @@ body {
         color: #000000;
     }
 
+    .main-search input[type="text"] {
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.50);
+    }
+
     input[type="text"] {
         background-color: #ffffff;
         color: #000000;
@@ -210,6 +214,10 @@ body {
     body {
         background-color: #121212;
         color: #ffffff;
+    }
+
+    .main-search input[type="text"] {
+        box-shadow: 0 1px 4px rgba(255, 255, 255, 0.50);
     }
 
     input[type="text"] {
