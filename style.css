@@ -1,5 +1,5 @@
 /* =========================================================
-   Global Styles
+   Global Styling
    ========================================================= */
 h1 {
     text-align: center;
@@ -142,6 +142,20 @@ input[type="submit"] {
 }
 
 /* =========================================================
+   Footer Styling
+   ========================================================= */
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 20px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+
+
+/* =========================================================
    Color Modes: Light & Dark
    ========================================================= */
 
@@ -172,6 +186,10 @@ body {
     .nav-links a {
         color: #ffffff;
     }
+
+    .footer a {
+        color: #ffffff;
+    }
 }
 
 /* Light mode */
@@ -193,6 +211,10 @@ body {
     }
 
     .nav-links a {
+        color: #4285F4;
+    }
+
+    .footer a {
         color: #4285F4;
     }
 }
