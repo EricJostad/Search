@@ -1,3 +1,6 @@
+/* =========================================================
+   Global Styles
+   ========================================================= */
 h1 {
     text-align: center;
     margin-top: 200px;
@@ -14,6 +17,9 @@ h3 {
     margin-top: 10px;
 }
 
+/* =========================================================
+   Layout: Main Search Section
+   ========================================================= */
 .main-search {
     display: flex;
     flex-direction: column;
@@ -28,12 +34,14 @@ h3 {
     font-size: 16px;
 }
 
+/* Search buttons container */
 .search-buttons {
     margin-top: 20px;
     display: flex;
     gap: 10px;
 }
 
+/* Submit button styling */
 input[type="submit"] {
     border-radius: 8px;
     padding: 5px 10px;
@@ -41,6 +49,9 @@ input[type="submit"] {
     cursor: pointer;
 }
 
+/* =========================================================
+   Navigation Links
+   ========================================================= */
 .nav-links {
     position: absolute;
     top: 20px;
@@ -60,6 +71,9 @@ input[type="submit"] {
     text-decoration: underline;
 }
 
+/* =========================================================
+   Form Groups (Used in Advanced Search)
+   ========================================================= */
 .form-group {
     display: flex;
     align-items: center;
@@ -79,22 +93,30 @@ input[type="submit"] {
     border-radius: 6px;
 }
 
+/* =========================================================
+   Google Logo Styling
+   ========================================================= */
 .google-logo {
     font-size: 80px;
     font-family: Arial, sans-serif;
     font-weight: 500;
 }
 
+/* Logo adjustments specifically for the Advanced Search page */
 .advanced-search-page .google-logo {
     text-align: left;
     margin-left: 10px;
 }
 
+/* Advanced Search page heading alignment */
 .advanced-search-page h2 {
     text-align: left;
     margin-left: 10px;
 }
 
+/* =========================================================
+   Google Logo Letter Colors
+   ========================================================= */
 .g {
     color: #4285F4;
 }
@@ -118,6 +140,10 @@ input[type="submit"] {
 .e {
     color: #EA4335;
 }
+
+/* =========================================================
+   Color Modes: Light & Dark
+   ========================================================= */
 
 /* Default (light mode) */
 body {
